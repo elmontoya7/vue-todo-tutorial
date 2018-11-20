@@ -11,7 +11,8 @@ const vueOpts = {
   rootPath: path.join(__dirname, './views'),
   head: {
     styles: [
-      {style: '/styles/style.css'}
+      {style: '/styles/style.css'},
+      {style: 'https://use.fontawesome.com/releases/v5.5.0/css/all.css'}
     ]
   }
 }
