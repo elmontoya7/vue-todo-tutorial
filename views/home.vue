@@ -1,5 +1,7 @@
 <template lang="html">
-  <h1>hello!</h1>
+  <div class="main-content">
+
+  </div>
 </template>
 
 <script>
@@ -13,4 +15,10 @@ export default {
 </script>
 
 <style lang="css">
+.main-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  overflow-y: auto;
+}
 </style>
